@@ -106,8 +106,8 @@ a { color: inherit; }
   padding: 4.5rem 0 3rem;
 }
 .hero .mascot {
-  width: 92px;
-  height: 92px;
+  width: 184px;
+  height: 184px;
   object-fit: contain;
   animation: drift 6s ease-in-out infinite;
   mix-blend-mode: screen;
