@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>The Broken Compass · The Helping Fih</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <div class="bubbles" aria-hidden="true">
+    <span style="--l:12%; --s:6px; --t:18s; --d:0s;"></span>
+    <span style="--l:30%; --s:9px; --t:15s; --d:3s;"></span>
+    <span style="--l:55%; --s:5px; --t:20s; --d:1s;"></span>
+    <span style="--l:78%; --s:8px; --t:16s; --d:4s;"></span>
+    <span style="--l:90%; --s:6px; --t:19s; --d:2s;"></span>
+  </div>
+
+  <nav class="site-nav">
+    <div class="wrap">
+      <a class="brand" href="index.html">
+        <svg viewBox="0 0 100 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <polygon points="18,30 -2,14 -2,46" fill="#52e8da" opacity="0.85"/>
+          <ellipse cx="55" cy="30" rx="30" ry="17" fill="#52e8da"/>
+          <circle cx="70" cy="24" r="3" fill="#04141c"/>
+        </svg>
+        The Helping Fih
+      </a>
+      <a class="back-link" href="index.html">All hints</a>
+    </div>
+  </nav>
+
+  <main class="puzzle-main">
+    <div class="puzzle-head wrap">
+      <p class="kicker">Puzzle I</p>
+      <!-- EDIT: replace with your real puzzle name -->
+      <h1>The Broken Compass</h1>
+      <!-- EDIT: one or two sentences describing what the puzzle looks like, no answers -->
+      <p>Loose jigsaw pieces are scattered across the table, each stamped with a letter or a mark. Fitted together, they should form something that points the way.</p>
+    </div>
+
+    <div class="hint-box wrap">
+      <button class="hint-btn" type="button" aria-expanded="false">Need a nudge?</button>
+      <div class="hint-card">
+        <svg class="fish-swim" viewBox="0 0 100 60" fill="none" xmlns="http://www.w3.org/2000/svg" aria-hidden="true">
+          <polygon points="18,30 -2,14 -2,46" fill="#123b45" opacity="0.85"/>
+          <ellipse cx="55" cy="30" rx="30" ry="17" fill="#123b45"/>
+          <circle cx="70" cy="24" r="3" fill="#f3ead2"/>
+        </svg>
+        <p class="label">The Fih whispers</p>
+        <!-- EDIT: the actual hint text for this puzzle -->
+        <p>Don't force the edges together — turn every piece face up first and sort them by colour. The compass only makes sense once north is on top.</p>
+      </div>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="wrap">The Helping Fih &middot; keep this tab open during the session</div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
